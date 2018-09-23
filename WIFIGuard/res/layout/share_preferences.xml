@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:layout_margin="0dp"
+    android:background="#ECECEC"
+    android:gravity="top"
+    android:orientation="vertical"
+     >
+
+    <FrameLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/infoboxbar" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:editable="false"
+            android:ems="10"
+            android:text="连接管理"
+            android:textColor="#FFFFFF" >
+
+            <requestFocus />
+        </EditText>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/mylistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:dividerHeight="1.0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+</LinearLayout>

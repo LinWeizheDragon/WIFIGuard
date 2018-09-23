@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/small_window_layout"
+	android:layout_width="272dip"
+	android:layout_height="144dip"
+	android:background="@drawable/bg_small"
+    >
+
+          <TextView
+              android:id="@+id/percent"
+              android:layout_width="241dp"
+              android:layout_height="126dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:gravity="center"
+              android:textColor="#ffffff" />
+
+</FrameLayout>

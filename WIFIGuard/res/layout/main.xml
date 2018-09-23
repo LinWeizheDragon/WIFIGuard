@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/home" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:focusable="false"
+        android:editable="false"
+        android:layout_margin="16dp"
+        android:gravity="top|left"
+        android:textColor="#FFFFFF"
+        android:inputType="textMultiLine" />
+    
+    
+<com.dragon.wifiguard.SpringProgressView
+        android:id="@+id/spring_progress_view"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_height="25dp"/>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignLeft="@+id/spring_progress_view"
+    android:layout_alignRight="@+id/spring_progress_view"
+    android:layout_below="@+id/spring_progress_view" >
+
+    <ImageView
+        android:id="@+id/up"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/up" />
+
+    <ImageView
+        android:id="@+id/down"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/down" />
+
+    <EditText
+        android:id="@+id/updata"
+        android:layout_width="70dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="120dp"
+        android:background="@null"
+        android:ems="10"
+        android:focusable="false"
+        android:text="Getting"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/downdata"
+        android:layout_width="70dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="30dp"
+        android:background="@null"
+        android:ems="10"
+        android:focusable="false"
+        android:text="Getting"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="修改"
+        android:background="@null"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/TotalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="总流量："
+        android:layout_marginTop="35dp"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/TotalTextOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="使用情况"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="right"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/stateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="监控情况："
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/stateTextOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:text="实时监控 偷渡监控"
+        android:layout_gravity="right"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp" />
+
+</FrameLayout>
+
+<EditText
+    android:id="@+id/Info"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/spring_progress_view"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="37dp"
+    android:background="@null"
+    android:editable="false"
+    android:ems="10"
+    android:text="流量使用进度"
+    android:textColor="#FFFFFF" />
+
+</RelativeLayout>
