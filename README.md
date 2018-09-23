@@ -2,6 +2,7 @@
 Individual project in Android Platform
 
 ## Research Log
+```
 研究日志
 2014/7/15~2014/7/20
 ·软件制作方向策划，软件需求调查
@@ -136,3 +137,4 @@ Individual project in Android Platform
 ·修复了两处小问题：传地址误当做传值；无连接NetState服务进入死循环。
 2015/10/9
 ·软件成功上线百度平台和腾讯平台。
+```
